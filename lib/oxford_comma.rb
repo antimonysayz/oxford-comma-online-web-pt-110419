@@ -1,15 +1,10 @@
 def oxford_comma(array)
-  comma = []
-  i = 0
-  if array.size < 2
-  comma << array.join()
-elsif array.size > 1 && array.size < 3
-  comma << array.join(" and ")
-while i < array.size 
-  array.each do |name|
-    comma << "#{name},"
-    i += l
-    array[-1] == ",#{name}
-end
-comma
+  if array.length == 1
+    array.join
+  elsif array.length == 2
+    array.join (" and ")
+  else
+    array.push[-1]= "and #{array[-1]}"
+    array.join
+  end
 end
