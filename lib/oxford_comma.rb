@@ -9,8 +9,7 @@ while i < array.size
   array.each do |name|
     comma << "#{name},"
     i += l
-    array[-1] == ", and #{name}"
-    end
-  end
-  end
+    array[-1] == ",#{name}
+end
+comma
 end
