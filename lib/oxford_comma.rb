@@ -10,6 +10,7 @@ while i < array.size
     comma << "#{name},"
     i += l
     array[-1] == ", and #{name}"
-end
-comma
+    end
+  end
+  end
 end
